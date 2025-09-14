@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'alx_project_nexus.poll_system',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,17 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'alx_project_nexus.urls'
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'poll_system_db',
+        'USER': 'your_username',
+        'PASSWORD': 'your_password',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
 
 TEMPLATES = [
     {
