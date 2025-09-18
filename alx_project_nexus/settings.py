@@ -132,3 +132,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Time zone settings
+TIME_ZONE = 'Africa/Nairobi'  # Use your local timezone or 'UTC'
+USE_I18N = True
+USE_L10N = True
+USE_TZ = True  
