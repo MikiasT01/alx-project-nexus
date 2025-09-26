@@ -16,7 +16,4 @@
   - Deployment: Hosted on PythonAnywhere.
   - Documentation: Swagger UI at `/api/docs`.
 
-  ## Next Steps
-  - Complete ERD and ORM implementation.
-  - Develop API endpoints for poll management, voting, and results.
-  - Test and deploy.
+ 
